@@ -24,11 +24,8 @@
 
 body {
   color: rgba(255,255,255,.75);
-  background-color: $sidebar-bg-color;
-  background-image: linear-gradient(
-    to bottom,
-    lighten($sidebar-bg-color, 7%),
-    darken($sidebar-bg-color, 7%));
+  background-color: $lw-brown;
+  
   display: flex;
   flex-direction: column;
   min-width: 100vw;
@@ -36,6 +33,7 @@ body {
 }
 
 #sidebar {
+  background-color: $lw-brown;
   flex: 0 0 auto;
   padding: $section-spacing;
   .site-title {
